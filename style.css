@@ -43,11 +43,54 @@
  .nav_btn{
     padding: 9px 23px;
     border: none;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
-    background-color: rgb(251, 182, 8);
+    background-color: rgb(255, 143, 14);
     color: rgb(255, 255, 255);
     font-family: "Open Sans", serif; 
-}   
+    border-radius: 3px;
+}  
+.nav_btn:hover{
+    background-color: rgb(247, 193, 18);
+    color: rgb(0, 0, 0);
+    transition: .5s;
+    border-radius: 3px;
+} 
+.banner{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 0px  230px; */
+}
+.banner_content{
+    text-align: left;
+    margin: 160px 0 0 0;
+
+}
+.banner_img{
+    width: 400px;
+}
+.small_head{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.big_head{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 66px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.para{
+ color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+
 
 
