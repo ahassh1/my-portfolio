@@ -276,3 +276,13 @@ font-family: Open Sans;
 font-size: 35px;
 font-weight: 700;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    footer, .skill_main, .banner, .about_con, .about_cont, .nav_main{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+   
+}
